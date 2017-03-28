@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690ED9411E8A9B6C00F774B2 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690ED9401E8A9B6C00F774B2 /* Untitled.gif */; };
 		692086D21E76D3B10040DDF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 692086D11E76D3B10040DDF8 /* main.m */; };
 		692086D51E76D3B10040DDF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 692086D41E76D3B10040DDF8 /* AppDelegate.m */; };
 		692086D81E76D3B10040DDF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692086D71E76D3B10040DDF8 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		690ED9401E8A9B6C00F774B2 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		692086CD1E76D3B10040DDF8 /* 下拉放大.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下拉放大.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		692086D11E76D3B10040DDF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		692086D31E76D3B10040DDF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690ED93F1E8A9B6C00F774B2 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				690ED9401E8A9B6C00F774B2 /* Untitled.gif */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		692086C41E76D3B10040DDF8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		692086CF1E76D3B10040DDF8 /* 下拉放大 */ = {
 			isa = PBXGroup;
 			children = (
+				690ED93F1E8A9B6C00F774B2 /* ScreenShot */,
 				692086D31E76D3B10040DDF8 /* AppDelegate.h */,
 				692086D41E76D3B10040DDF8 /* AppDelegate.m */,
 				692086D61E76D3B10040DDF8 /* ViewController.h */,
@@ -145,6 +156,7 @@
 				692086DD1E76D3B10040DDF8 /* Assets.xcassets in Resources */,
 				692086E81E76DE580040DDF8 /* timg.jpeg in Resources */,
 				692086DB1E76D3B10040DDF8 /* Main.storyboard in Resources */,
+				690ED9411E8A9B6C00F774B2 /* Untitled.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +326,7 @@
 				692086E61E76D3B10040DDF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
